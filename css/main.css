@@ -1,5 +1,5 @@
 div.hello {
-  color: green;
+  color: green !important;
 }
 .hello {
   color: red;
