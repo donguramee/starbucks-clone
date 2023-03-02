@@ -1,6 +1,20 @@
-div.hello {
-  color: green !important;
+.container {
+  width: 300px;
+  background-color: royalblue;
 }
-.hello {
-  color: red;
+.container .item {
+  border: 4px dashed red;
+  background-color: orange;
+}
+.container .item:nth-child(1) {
+  width: 100px;
+  height: 100px;
+}
+.container .item:nth-child(2) {
+  width: 100px;
+  height: 100px;
+}
+.container .item:nth-child(3) {
+  width: 100px;
+  height: 100px;
 }
