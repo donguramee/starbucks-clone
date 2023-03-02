@@ -1,3 +1,9 @@
+.wrap {
+  width: 400px;
+  height: 600px;
+  background-color: tomato;
+}
+
 .container {
   width: 300px;
   background-color: royalblue;
