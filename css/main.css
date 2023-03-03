@@ -1,26 +1,23 @@
 .wrap {
   width: 400px;
-  height: 600px;
   background-color: tomato;
 }
 
 .container {
   width: 300px;
   background-color: royalblue;
+  position: relative;
 }
 .container .item {
+  width: 100px;
+  height: 100px;
   border: 4px dashed red;
   background-color: orange;
 }
 .container .item:nth-child(1) {
-  width: 100px;
-  height: 100px;
 }
 .container .item:nth-child(2) {
-  width: 100px;
-  height: 100px;
+  position: absolute;
 }
 .container .item:nth-child(3) {
-  width: 100px;
-  height: 100px;
 }
