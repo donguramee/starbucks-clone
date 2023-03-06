@@ -1,23 +1,9 @@
-.wrap {
-  width: 400px;
-  background-color: tomato;
-}
-
 .container {
-  width: 300px;
   background-color: royalblue;
-  position: relative;
 }
 .container .item {
   width: 100px;
   height: 100px;
-  border: 4px dashed red;
+  border: 3px dashed red;
   background-color: orange;
-}
-.container .item:nth-child(1) {
-}
-.container .item:nth-child(2) {
-  position: absolute;
-}
-.container .item:nth-child(3) {
 }
