@@ -13,3 +13,7 @@
   height: 200px;
   background-color: aqua;
 }
+.tittle {
+  display: block;
+  color: blue;
+}
