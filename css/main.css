@@ -17,3 +17,9 @@
   display: block;
   color: blue;
 }
+div {
+  background-color: brown;
+}
+.middle {
+  background-color: aqua;
+}
