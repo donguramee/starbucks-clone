@@ -56,7 +56,7 @@ new Swiper(".promotion .swiper-container", {
   centeredSlides: true,
   loop: true,
   autoplay: {
-    delay: 800,
+    delay: 1300,
   },
   pagination: {
     el: ".promotion .swiper-pagination", //페이지 번호 요소 선택자
@@ -66,4 +66,18 @@ new Swiper(".promotion .swiper-container", {
     prevEl: ".promotion .swiper-prev",
     nextEl: ".promotion .swiper-next",
   },
+});
+
+const promotionEl = document.querySelector(".promotion");
+const promotionToggleBtn = document.querySelector(".toggle-promotion");
+let isHidePromotion = false;
+promotionToggleBtn.addEventListener("click", function () {
+  isHidePromotion = !isHidePromotion;
+  if (isHidePromotion) {
+    //숨김처리
+    promotionEl.classList.add("hide");
+  } else {
+    promotionEl.classList.remove("hide");
+    //보임처리
+  }
 });
